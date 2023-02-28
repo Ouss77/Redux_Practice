@@ -1,0 +1,23 @@
+.sidebar{
+    width: 25% ;
+    height: calc(100vh - 63px);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(179, 233, 251);
+    
+}
+.sidebar ul{
+    list-style: none;
+    
+}
+
+.sidebar li a{
+    border-radius: 4px;
+    background-color: rgb(16, 45, 85);
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+}

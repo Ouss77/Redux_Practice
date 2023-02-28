@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Header from './component/Header/Header'
+import Sidebar from './component/Sidebar/Sidebar'
+import "./App.css"
+import Form from './component/Form/Form'
+export default function App() {
 
-function App() {
+  // const[name, setName] = useState("")
+  // const[email, setEmail] = useState("")
+  // const[isChanged, setisChanged] = useState(false)
+
+  // const addUser = (e) =>{
+  //   e.preventDefault();
+  //   setisChanged(true)}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header  />
+      <div className='main'>
+      <Sidebar />
+      <Form />
+      </div>
+  
     </div>
-  );
+  )
 }
-
-export default App;

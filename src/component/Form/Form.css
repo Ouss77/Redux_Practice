@@ -1,0 +1,23 @@
+form {
+    flex: 1;
+    padding: 10px;    
+
+}
+form div{
+    margin-bottom: 10px;
+}
+form input {
+    width: 100%;
+    border: 1px solid rgb(0, 9, 19);
+    border-radius: 8px;
+    height: 40px;
+    padding: 20px;
+    display: block;
+    cursor: pointer;
+
+}
+form input[type="submit"]{
+    background-color: rgb(12, 6, 117);
+    border: 0;
+    color: white;
+}
